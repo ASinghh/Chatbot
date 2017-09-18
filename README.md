@@ -8,7 +8,7 @@ To conclude my Deep Learning course, I decided to write a chatbot.I followed the
 7. feeded the sentences into a bidirectional encoder.
 8. Used a uni directional decoder with initial state as the context vector from the encoder.
 9. Fed previously generated tokens from the decoder as input to the decoder for the next step.
-10 Used an Tensorflow helper in the chatbot_helper function instead  of the big looping function that I had written .
+10 Used an Tensorflow helper in the chatbot_tf_helper function instead  of the big looping function that I had written .
 11. Working on attention mechanism, going to used a modified verison of the model_functions.py
 
 
